@@ -36,6 +36,6 @@ message-hub:
         
   healthCheck:
     active: true
-    cron: *
+    cron: 1
     timeout: 2000
     testQueue: testQueue
